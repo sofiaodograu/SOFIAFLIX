@@ -1,0 +1,61 @@
+body {
+    color: white;
+    background: lavenderblush;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(142, 0, 135);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(142, 0, 135);
+}
+
+.chamada {
+    background: rgb(0, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-video {
+    display: flex;
+    overflow-x: auto;
+    gap: 13px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-video img {
+    opacity: 0.5;
+    height: 200px;
+
+}
+
+.categoria-video img:hover {
+    opacity: 1.0;
+    border: 1px solid darkred;
+}
+
+.categoria h2 {
+    color: rgb(142, 0, 135);
+
+}
